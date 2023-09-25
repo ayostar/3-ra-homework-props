@@ -1,7 +1,7 @@
 import Star from './Star/Star';
 import './stars.css';
 import { nanoid } from 'nanoid';
-import PropTypes, { element } from 'prop-types';
+import PropTypes from 'prop-types';
 
 function Stars({ count = 0 }) {
   const number = parseInt(count);
