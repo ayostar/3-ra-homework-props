@@ -1,6 +1,6 @@
 # TEST STATUS
 
-[![Build status](https://ci.appveyor.com/api/projects/status/64v96moo6owsm5n9?svg=true)](https://ci.appveyor.com/project/ayostar/3-ra-homework-props)
+[![Build status](https://ci.appveyor.com/api/projects/status/7ni7nw4arn7y2px3?svg=true)](https://ci.appveyor.com/project/ayostar/3-ra-homework-props)
 
 [[Github Pages](https://ayostar.github.io/3-ra-homework-props/)]
 
@@ -8,27 +8,10 @@
 
 Необходимо выполнить и предоставить на проверку следующие задачи:
 
-1. [Рейтинг фильмов](films).
-1. [Список предложений](listing).
-1. [История сообщений в чате](chat) — необязательная задача.
+1. [Рейтинг фильмов](https://github.com/netology-code/ra16-homeworks/tree/ra-51/props/films).
+1. [Список предложений](https://github.com/netology-code/ra16-homeworks/blob/ra-51/props/listing).
+1. [История сообщений в чате](https://github.com/netology-code/ra16-homeworks/blob/ra-51/props/chat) — необязательная задача.
 
 Все три задачи лучше сдавать в разных репозиториях, то есть через create-react-app реализовать три проекта, чтобы не
 было конфликта стилей. Но если вы позаботитесь о том, что конфликта не будет, то можете сдавать и в одном проекте.
 Все стили необходимо размещать в файле App.css.
-
-**Важно!**  
-Задачи должны быть написаны на TypeScript. Все Props должны иметь свой тип или интерфейс. Использование типа any не
-допускается.
-
-#### Альтернативный способ создания приложения React с использованием тулинга Vite
-
-Приложение можно создать, используя инструмент Vite.
-Документация по созданию приложения [React](https://vitejs.dev/guide/).
-
-1. Откройте терминал и пропишите следующую команду: `yarn create vite my-app --template react`,
-   либо `yarn create vite my-app --template react-ts`, если
-   нужен шаблон с TypeScript. Эта команда создаст настроенный
-   шаблонный проект.
-2. Откройте созданный проект в своей IDE.
-3. Установите зависимости.
-4. Готово. Чтобы запустить приложение, введите команду: `yarn dev`(либо `npm run dev`).
